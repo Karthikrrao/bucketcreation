@@ -13,8 +13,8 @@ provider "aws" {
   region  = "us-west-2"
 }
 
-resource "aws_s3_bucket" "bucket" {
-  bucket = var.aws_s3_bucket
+resource "aws_s3_bucket" "karthik_bucket" {
+  bucket = "karthiks3bucket"
   acl    = "private"
 
  tags = {
