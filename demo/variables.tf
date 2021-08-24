@@ -1,8 +1,3 @@
-variable "aws_s3_bucket" {
-  description = "AWS S3 bucketcreation"
-  type = string
-  default = "my-tf-test-bucket-test"
-}
 variable "s3_bucket_name" {
   description = "s3 bucket name"
   type        = string
