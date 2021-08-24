@@ -14,7 +14,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "b" {
-  bucket = "my-tf-test-bucket1"
+  bucket = var.aws_s3_bucket
   acl    = "private"
 
  tags = {
